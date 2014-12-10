@@ -21,4 +21,4 @@ You have total control over framework and tools, as long as application is writt
 - Code quality, including testability
 - How easy it is to run and deploy the service (don't make us install Oracle database please ;)
 
-** Good luck and have fun! **
+**Good luck and have fun!**

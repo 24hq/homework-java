@@ -1,12 +1,12 @@
 ### Problem definition
-Create a tiny question web service with the following business requirements:
+Create a tiny question RESTful web service with the following business requirements:
 
 - User should be able to ask question publicly by providing question text. 
 - Service must perform origin country resolution using [the following web service](http://www.telize.com) and store country code together with the question. Because networking is unreliable and services tend to fail, let's agree on default country code - "lv".
 - Service must perform question validation according to the following rules and reject question if:
     -  Question contains blacklisted words listed in a dictionary
     - **N** questions / second are asked from a single country (essentially we want to limit number of questions coming from a country in a given timeframe)
-- Application must expose Web API endpoints for the following functionality:
+- Application must expose REST API endpoints for the following functionality:
     - ask question
     - list all accepted questions
     - list all accepted questions by country code

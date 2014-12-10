@@ -1,5 +1,5 @@
 ### Problem definition
-Create a tiny question RESTful web service with the following business requirements:
+Create a tiny RESTful question web service with the following business requirements:
 
 - User should be able to ask question publicly by providing question text. 
 - Service must perform origin country resolution using [the following web service](http://www.telize.com) and store country code together with the question. Because networking is unreliable and services tend to fail, let's agree on default country code - "lv".
